@@ -2,24 +2,22 @@
 
 TravelCo is a full-stack web application designed to simplify and enhance the process of planning, booking, and managing trips. 
 
----
-
 ## Table of Contents
 - [Overview](#overview)
 - [Features](#features)
 - [Tech Stack](#tech-stack)
 - [Setup Instructions](#setup-instructions)
 - [API Documentation](#api-documentation)
-  - [Jobs API](#jobs-api)
-  - [Applications API](#applications-api)
+  - [Tour packages API](#tours-api)
+  - [Bookings API](#bookings-api)
+  - [User API](#user-api)
 - [Deployment](#deployment)
 - [Acknowledgements](#acknowledgements)
----
+  
 
 ## Overview
 This job portal application demonstrates full-stack development capabilities by combining a React-based frontend, a Node.js/Express.js backend, and MongoDB as the database. It provides a seamless experience for users and admins, featuring tour packages, booking packages and generating invoice, and more.
 
----
 
 ## Features
 
@@ -33,15 +31,12 @@ This job portal application demonstrates full-stack development capabilities by 
 - View bookings submitted by users.
 - Admin dashboard.
 
----
-
 ## Tech Stack
 - **Frontend:** React, Fetch (for communication)
 - **Backend:** Node.js, Express.js
 - **Database:** MongoDB (Mongoose)
 - **Deployment:** Vercel (Frontend & Backend)
 
----
 
 ## Setup Instructions
 
@@ -134,7 +129,7 @@ This job portal application demonstrates full-stack development capabilities by 
 - **Description:** Logout user session
 
 
-### Jobs API
+### Tour Packages API
 
 #### Fetch All packages
 - **Endpoint:** `GET /api/tour`
