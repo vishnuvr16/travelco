@@ -100,9 +100,9 @@ const HeroSection = () => {
           {/* Stats */}
           <div className="flex space-x-8 mt-8">
             {[
-              { value: '500+', label: 'Destinations' },
-              { value: '10K+', label: 'Happy Travelers' },
-              { value: '25+', label: 'Years of Experience' }
+              { value: '50+', label: 'Destinations' },
+              { value: '2K+', label: 'Happy Travelers' },
+              { value: '3+', label: 'Years of Experience' }
             ].map((stat, index) => (
               <motion.div 
                 key={index}
