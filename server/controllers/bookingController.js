@@ -74,16 +74,3 @@ export const getAllBookings = async (req, res) => {
     bookings
   });
 };
-
-export const deleteBooking = async (req, res) => {
-  const booking = await Booking.findByIdAndDelete(req.params.id);
-
-  if (!booking) {
-    throw new Error('No booking found with that ID')
-  }
-
-  res.status(204).json({
-    status: 'success',
-    data: null
-  });
-};
